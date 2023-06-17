@@ -8,10 +8,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'grain-pattern': "url('/Grain-Texture-01.png')",
       },
+      boxShadow: {
+        'photo': '-7px 8px 0px 0px rgba(149, 149, 149, 1)',
+      }
     },
   },
   plugins: [],
